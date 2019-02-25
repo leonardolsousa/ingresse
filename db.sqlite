@@ -1,0 +1,25 @@
+/*
+ * SQLite CREATE TABLE examples.
+ * Created by Alvin Alexander, http://alvinalexander.com
+ * Released under the Creative Commons License.
+ */
+
+--
+-- users
+--
+CREATE TABLE users (
+  id INTEGER PRIMARY KEY,
+  name TEXT NOT NULL
+);
+
+/*
+ * SQLite INSERT statement examples.
+ * Created by Alvin Alexander, http://alvinalexander.com
+ * Released under the Creative Commons License.
+ */
+
+--
+-- users
+--
+
+INSERT INTO users VALUES (null, 'Maria Isabel');
